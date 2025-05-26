@@ -43,8 +43,8 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? 'put_your_session' : process.env.SESSION_ID, // put your session id || ඔයාගෙ සෙසන් එක දාන්න...😌❤
-TYPE: process.env.TYPE === undefined ? 'nonbutton' : process.env.TYPE, // if you need buttons put 'button' if you need nonbutton ( number reply ) put 'nonbutton' || බටන් ඕනි නම් 'button' දාන්න number reply ඕනි නම් nonbutton දාන්න...😌❤
+SESSION_ID: process.env.SESSION_ID === undefined ? 'Manu-MD&9pThZwSG' : process.env.SESSION_ID, // put your session id || ඔයාගෙ සෙසන් එක දාන්න...😌❤
+TYPE: process.env.TYPE === undefined ? 'button' : process.env.TYPE, // if you need buttons put 'button' if you need nonbutton ( number reply ) put 'nonbutton' || බටන් ඕනි නම් 'button' දාන්න number reply ඕනි නම් nonbutton දාන්න...😌❤
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 SUDO: process.env.SUDO === undefined ? '94742274855' : process.env.SUDO,
